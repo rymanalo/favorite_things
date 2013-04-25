@@ -7,6 +7,7 @@ var fave_things = [
 ];
 
 function fave_fast_food(array) {
-  for(var i = 0; i < array.length; i += 1)
-    console.log("My #" + (i+1) + " favorite fast food place is " + array[i]);
-};
+  for (var i = 0; i < array.length; i += 1) {
+    console.log("My #" + (i+1) + "favorite fast food place is " + array[i]);
+  }
+}
